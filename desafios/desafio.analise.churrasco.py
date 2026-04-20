@@ -1,6 +1,10 @@
 from rich import print
 
 class Churrasco:
+    # Analise para calcular quantidade total de Kg, custo total do churrasco
+    # e calcular quantidade de cada pessoa individual ira pagar
+
+
     def __init__(self, titulo, quant, kg_pessoa=0.4, valor_kg=84):
         self.titulo = titulo
         self.quant = quant
